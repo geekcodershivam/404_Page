@@ -1,11 +1,16 @@
+body{
+  width: 100%;
+}
 svg#robot {
   display: block;
   position: relative;
   margin: 0  auto 0 auto;
   padding: 3px;
+  padding-bottom: 3px;
   transform-origin: bottom;
   transform: rotate(0deg) translate3d(0px, 0px, 0px);
   animation: move 2s ease infinite;
+  
 }
 @keyframes move {
   0%, 100% {
